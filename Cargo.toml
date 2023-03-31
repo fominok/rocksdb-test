@@ -1,0 +1,9 @@
+[package]
+name = "rocksdb-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crossbeam = "0.8.2"
+rocksdb = { version = "0.20.1", features = ["multi-threaded-cf"] }
+tempfile = "3.5.0"
